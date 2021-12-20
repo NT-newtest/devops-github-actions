@@ -27,12 +27,12 @@ publishing {
             // Die URL des Repositories, in dem die Artefakte veröffentlicht werden sollen
             // The url of the repository, where the artifacts will be published
             url = "https://maven.pkg.github.com/Vani06/devops-github-actions"
-            credentials {
+            //credentials {
                 // Die Zugangsdaten (weiter unten beschrieben)
                 // The credentials (described in the next section)
-                username = project.findProperty("gpr.user")
-                password = project.findProperty("gpr.key")
-            }
+               // username = project.findProperty("gpr.user")
+                //password = project.findProperty("gpr.key")
+           // }
         }
     }
     publications {
