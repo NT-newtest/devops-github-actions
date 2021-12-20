@@ -28,5 +28,5 @@ repositories {
 dependencies {
     // Die Referenz auf das veröffentlichte Library-Artefakt
     // The reference to our published library artifact
-    compile "io.flowsquad.blog:devops-github-actions-library:1.0.1"
+    implementation "io.flowsquad.blog:devops-github-actions-library:1.0.1"
 }
