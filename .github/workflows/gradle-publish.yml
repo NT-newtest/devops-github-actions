@@ -20,5 +20,7 @@ jobs:
       - name: Build JAR # Used to execute gradle commands
         run: >
           gradle \
+            -Pgpr.key=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 \
+            -Pgpr.user=vanisidagam \
             :devops-github-packages-library:build \
             :devops-github-packages-library:publish
