@@ -15,7 +15,7 @@ repositories {
         name = "GitHubPackages"
         // Die URL des Repositories, in dem die Artefakte veröffentlicht wurden
         // The url of the repository that contains the published artifacts
-        url = "https://maven.pkg.github.com/Vani06/devops-github-actions"
+        url = "https://maven.pkg.github.com/NT-newtest/devops-github-actions"
        // credentials {
             // Die Zugangsdaten (weiter unten beschrieben)
             // The credentials (described in the next section)
