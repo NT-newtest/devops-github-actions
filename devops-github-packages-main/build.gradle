@@ -15,13 +15,13 @@ repositories {
         name = "GitHubPackages"
         // Die URL des Repositories, in dem die Artefakte veröffentlicht wurden
         // The url of the repository that contains the published artifacts
-        url = "https://maven.pkg.github.com/FlowSquad/devops-github-actions"
-        credentials {
+        url = "https://maven.pkg.github.com/Vani06/devops-github-actions"
+       // credentials {
             // Die Zugangsdaten (weiter unten beschrieben)
             // The credentials (described in the next section)
-            username = project.findProperty("gpr.user")
-            password = project.findProperty("gpr.key")
-        }
+         //   username = project.findProperty("gpr.user")
+           // password = project.findProperty("gpr.key")
+       // }
     }
 }
 
